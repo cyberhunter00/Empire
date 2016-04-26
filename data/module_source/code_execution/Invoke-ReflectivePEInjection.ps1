@@ -23,7 +23,7 @@ from the DLL. The script doesn't wait for the DLL to complete execution, and doe
 remote process. 
 
 
-While this script provides functionality to specify a file to load from disk a URL, or a byte array, these are more for demo purposes. The way I'd recommend using the script is to create a byte array
+while this script provides functionality to specify a file to load from disk a URL, or a byte array, these are more for demo purposes. The way I'd recommend using the script is to create a byte array
 containing the file you'd like to reflectively load, and hardcode that byte array in to the script. One advantage of doing this is you can encrypt the byte array and decrypt it in memory, which will
 bypass A/V. Another advantage is you won't be making web requests. The script can also load files from SQL Server and be used as a SQL Server backdoor. Please see the Casaba
 blog linked below (thanks to whitey).
